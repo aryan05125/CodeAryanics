@@ -4,7 +4,7 @@ import { Instagram, Twitter, Linkedin, Github } from 'lucide-react';
 
 const Home = () => {
   return (
-    <section className="h-screen bg-[#121212] text-white flex flex-col justify-center items-center text-center px-6">
+    <section className="min-h-screen bg-[#121212] text-white flex flex-col justify-center items-center text-center px-6 pt-24">
       
       {/* Title with Animation and Responsive */}
       <motion.h1

@@ -3,7 +3,7 @@ import { Instagram, Twitter, Linkedin, Github, Mail, PhoneCall, MapPin } from 'l
 
 const Contact = () => {
   return (
-    <section className="min-h-screen bg-[#121212] text-white flex flex-col justify-center items-center px-6">
+    <section className="min-h-screen bg-[#121212] text-white flex flex-col justify-center items-center px-6 pt-24">
 
       {/* Page Title */}
       <motion.h1
@@ -15,19 +15,10 @@ const Contact = () => {
         Contact <span className="text-blue-500">Me</span>
       </motion.h1>
 
-      {/* Responsive Contact Info Section */}
-      <div className="flex flex-col md:flex-row items-center md:justify-between w-full max-w-lg mt-8">
-        <div className="w-full md:w-1/2">
-          <h1 className="text-3xl sm:text-4xl font-bold mb-4">Contact Me</h1>
-          <p className="text-sm sm:text-base">Name: Aryan Chauhan</p>
-          <p className="text-sm sm:text-base">Phone: +9409647292</p>
-          <p className="text-sm sm:text-base">Email: aryanchauhan144512@gmail.com</p>
-        </div>
-      </div>
+    
 
       {/* Contact Details */}
       <div className="mt-10 space-y-6">
-        {/* Name */}
         <motion.div
           className="flex items-center gap-4"
           initial={{ opacity: 0, x: -50 }}
@@ -38,7 +29,6 @@ const Contact = () => {
           <p className="text-lg">Aryan Chauhan</p>
         </motion.div>
 
-        {/* Phone */}
         <motion.div
           className="flex items-center gap-4"
           initial={{ opacity: 0, x: -50 }}
@@ -49,7 +39,6 @@ const Contact = () => {
           <p className="text-lg">+9409647292</p>
         </motion.div>
 
-        {/* Email */}
         <motion.div
           className="flex items-center gap-4"
           initial={{ opacity: 0, x: -50 }}
@@ -68,7 +57,6 @@ const Contact = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
       >
-        {/* Name Field */}
         <label className="block mb-4">
           <span className="text-gray-400">Your Name</span>
           <motion.input
@@ -78,7 +66,6 @@ const Contact = () => {
           />
         </label>
 
-        {/* Email Field */}
         <label className="block mb-4">
           <span className="text-gray-400">Your Email</span>
           <motion.input
@@ -88,7 +75,6 @@ const Contact = () => {
           />
         </label>
 
-        {/* Message Field */}
         <label className="block mb-6">
           <span className="text-gray-400">Your Message</span>
           <motion.textarea
@@ -97,7 +83,6 @@ const Contact = () => {
           ></motion.textarea>
         </label>
 
-        {/* Submit Button */}
         <motion.button
           type="submit"
           className="w-full bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold py-3 rounded-lg shadow-lg"
