@@ -49,10 +49,17 @@ const Home = () => {
 
       {/* Social Media Icons */}
       <div className="flex gap-4 mt-6">
-        {[Instagram, Twitter, Linkedin, Github].map((Icon, index) => (
+        {[
+          { Icon: Instagram, link: 'https://instagram.com/your_username' },
+          { Icon: Twitter, link: 'https://twitter.com/your_username' },
+          { Icon: Linkedin, link: 'https://linkedin.com/in/your_username' },
+          { Icon: Github, link: 'https://github.com/your_username' }
+        ].map(({ Icon, link }, index) => (
           <motion.a
             key={index}
-            href="#"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.2 }}
             whileTap={{ scale: 0.9 }}
             className="text-gray-400 hover:text-blue-500"
