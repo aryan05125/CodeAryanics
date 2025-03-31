@@ -2,11 +2,13 @@ import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 const allProjects = [
-  { title: 'Expense Tracker', category: 'Farm Stack', description: 'Track expenses & manage budget.', link: '#', image: '/expense-tracker.png' },
+  { title: 'Expense Tracker', category: 'Farm Stack', description: 'Track expenses & manage budget.', link: 'https://github.com/aryan05125/Expanse-Tracker', image: '/expense-tracker.png' },
   { title: 'Green Thumb', category: 'Farm Stack', description: 'Connect with local gardeners.', link: '#', image: '/green-thumb.png' },
   { title: 'BookStation', category: 'Frontend', description: 'A clean book-selling website.', link: '#', image: '/bookstation.png' },
   { title: 'Task Master', category: 'Farm Stack', description: 'Manage your tasks efficiently.', link: '#', image: '/task-master.png' },
-  { title: 'Portfolio', category: 'Frontend', description: 'Showcase your work with style.', link: '#', image: '/portfolio.png' },
+  { title: 'NiyaEngineering', category: 'Frontend', description: 'Showcase your work with style.', link: 'https://niya-engineering.vercel.app/', image: '/Niya.png' },
+  { title: 'TempleWeb', category: 'Frontend', description: 'Showcase your work with style.', link: 'https://vaijnath-manahdev.vercel.app/', image: '/temple.png' },
+
 ];
 
 const categories = ['All', 'Frontend', 'Farm Stack'];
