@@ -7,7 +7,8 @@ const allProjects = [
   { title: 'BookStation', category: 'Frontend', description: 'A clean book-selling website.', link: '#', image: '/bookstation.png' },
   { title: 'Task Master', category: 'Farm Stack', description: 'Manage your tasks efficiently.', link: '#', image: '/task-master.png' },
   { title: 'NiyaEngineering', category: 'Frontend', description: 'Showcase your work with style.', link: 'https://niya-engineering.vercel.app/', image: '/Niya.png' },
-  { title: 'TempleWeb', category: 'Frontend', description: 'Showcase your work with style.', link: 'https://vaijnath-manahdev.vercel.app/', image: '/temple.png' },
+  { title: 'TempleWeb', category: 'Frontend', description: 'plan your visit to Vaijnath Mahadev Temple today.', link: 'https://vaijnath-manahdev.vercel.app/', image: '/temple.png' },
+  { title: 'Do-To-List', category: 'Frontend', description: 'To-Do List App with a Practice Project.', link: 'https://to-do-list-gamma-sooty-62.vercel.app/', image: '/dotolist.png' },
 
 ];
 
