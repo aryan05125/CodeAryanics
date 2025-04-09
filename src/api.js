@@ -1,4 +1,4 @@
-const baseUrl = "https://your-backend.onrender.com";
+const baseUrl = "https://codearyanicsback.onrender.com";
 
 export const sendMessage = async (data) => {
   const response = await fetch(`${baseUrl}/contact`, {
